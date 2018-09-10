@@ -1,0 +1,50 @@
+{"name": "Mack Mcbride", "age": 22, "email":      "mack.mcbride@wwcode-dublin.xyz", "programming_language": "golang" }
+{"name": "Wayne Pratt", "age": 22, "email":       "wayne.pratt@wwcode-dublin.xyz", "programming_language": "golang" }
+{"name": "Roberto Cunningh", "age": 22, "email":  "roberto.cunningham@wwcode-dublin.xyz", "programming_language": "golang" }
+{"name": "Ora Mullins", "age": 22, "email":     "ora.mullins@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "April Franklin", "age": 22, "email":  "april.franklin@wwcode-dublin.xyz", "programming_language":  "PHP" }
+{"name": "Herbert Tucker", "age": 20, "email":  "herbert.tucker@wwcode-dublin.xyz", "programming_language":  "PHP" }
+{"name": "Rebecca Curry", "age": 23, "email":   "rebecca.curry@wwcode-dublin.xyz", "programming_language":   "PHP" }
+{"name": "Vanessa Swanson", "age": 32, "email": "vanessa.swanson@wwcode-dublin.xyz", "programming_language": "PHP" }
+{"name": "William Vargas", "age": 42, "email":  "william.vargas@wwcode-dublin.xyz", "programming_language":  "PHP" }
+{"name": "Doris Drake", "age": 12, "email":     "doris.drake@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Martha Anderson", "age": 18, "email": "martha.anderson@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Alfred Grant", "age": 20, "email":    "alfred.grant@wwcode-dublin.xyz", "programming_language":  "java" }
+{"name": "Sabrina Hogan", "age": 22, "email":   "sabrina.hogan@wwcode-dublin.xyz", "programming_language": "java" }
+{"name": "Beatrice Wong", "age": 21, "email":   "beatrice.wong@wwcode-dublin.xyz", "programming_language": "java" }
+{"name": "Judy Bryant", "age": 50, "email":     "judy.bryant@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Rosie Bishop", "age": 20, "email":    "rosie.bishop@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Roman Lindsey", "age": 43, "email":   "roman.lindsey@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Theodore Snyder", "age": 33, "email": "theodore.snyder@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Bertha Day", "age": 22, "email":      "bertha.day@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Marcus Schultz", "age": 22, "email":  "marcus.schultz@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Keith Tyler", "age": 22, "email":     "keith.tyler@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Brittany Cobb", "age": 22, "email":   "brittany.cobb@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Jane Morrison", "age": 22, "email":   "jane.morrison@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Annie Barnett", "age": 22, "email":   "annie.barnett@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Lydia Dunn", "age": 22, "email":      "lydia.dunn@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Abraham Warner", "age": 22, "email":"abraham.warner@wwcode-dublin.xyz", "programming_language": "ruby" }
+{"name": "Tony Henry", "age": 19,     "email":"tony.henry@wwcode-dublin.xyz" , "programming_language": "rust"}
+{"name": "Susan Jacobs", "age": 19,   "email":"susan.jacobs@wwcode-dublin.xyz" , "programming_language": "rust"}
+{"name": "Wendy Mendez", "age": 19,   "email":"wendy.mendez@wwcode-dublin.xyz" , "programming_language": "rust"}
+{"name": "Lynne Hale", "age": 19,     "email":"lynne.hale@wwcode-dublin.xyz" , "programming_language": "rust"}
+{"name": "Rodolfo Walsh", "age": 25,  "email":"rodolfo.walsh@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Ivan Jefferson", "age": 25, "email":"ivan.jefferson@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Marie Gill", "age": 25,     "email":"marie.gill@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Teri Schwartz", "age": 25,  "email":"teri.schwartz@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Van Hunt", "age": 25,       "email":"van.hunt@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Robyn Lee", "age": 25,      "email":"robyn.lee@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Wilbert Newton", "age": 25, "email":"wilbert.newton@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Eugene Schmidt", "age": 25, "email":"eugene.schmidt@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Felipe Brewer", "age": 25,  "email":"felipe.brewer@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Kay Allison", "age": 25,    "email":"kay.allison@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Ginger Miles", "age": 25,   "email":"ginger.miles@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Randolph Davis", "age": 25, "email":"randolph.davis@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Rodney Warren", "age": 25,  "email":"rodney.warren@wwcode-dublin.xyz" , "programming_language": "python"}
+{"name": "Randal Rose", "age": 30,    "email":"randal.rose@wwcode-dublin.xyz" , "programming_language": "scala"}
+{"name": "Louise King", "age": 30,    "email":"louise.king@wwcode-dublin.xyz" , "programming_language": "scala"}
+{"name": "Henry Barnes", "age": 30,   "email": "henry.barnes@wwcode-dublin.xyz",   "programming_language": "scala"}
+{"name": "Edith Webb", "age": 30,     "email": "edith.webb@wwcode-dublin.xyz",     "programming_language": "scala"}
+{"name": "Cary Sharp", "age": 30,     "email": "cary.sharp@wwcode-dublin.xyz",     "programming_language": "scala"}
+{"name": "Tim Foster", "age": 30,     "email": "tim.foster@wwcode-dublin.xyz",     "programming_language": "scala"}
+{"name": "Thomas Leonard", "age": 30, "email": "thomas.leonard@wwcode-dublin.xyz", "programming_language": "scala"}
