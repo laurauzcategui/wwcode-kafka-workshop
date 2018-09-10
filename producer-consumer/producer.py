@@ -50,6 +50,9 @@ def produce_messages(broker,topic,schema_name,data):
 
     schema = read_schema(schema_name)
 
+    # get a writter responsible to serialize data to avro format
+    writer =  avro.io.DatumWriter(schema)
+
     '''
         Let's add our code to start producing messages HERE :)
     '''
