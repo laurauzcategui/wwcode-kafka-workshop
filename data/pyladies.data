@@ -1,0 +1,50 @@
+{"name": "Winston Douglas", "age":24, "email": "Winston.Douglas@pyladies.xyz.bla"    , "programming_language": "python"}
+{"name": "Salvador Holmes", "age":24, "email": "Salvador.Holmes@pyladies.xyz.bla"    , "programming_language": "python"}
+{"name": "Molly Holloway",  "age":24, "email": "Molly.Holloway@pyladies.xyz.bla"     , "programming_language": "python"}
+{"name": "Jim Thomas",      "age":24, "email": "Jim.Thomas@pyladies.xyz.bla"         , "programming_language": "python"}
+{"name": "Wayne Hopkins", "age":22,   "email": "Wayne.Hopkins@pyladies.xyz.bla"      , "programming_language": "python"}
+{"name": "Rodney Wells", "age":20,    "email": "Rodney.Wells@pyladies.xyz.bla"       , "programming_language": "python"}
+{"name": "Meredith Jefferson", "age": 18,"email": "Meredith.Jefferson@pyladies.xyz.bl"  , "programming_language": "python"}
+{"name": "Kay Maxwell",  "age": 33,   "email": "Kay.Maxwell@pyladies.xyz.bla"        , "programming_language": "python"}
+{"name": "Julian Neal",  "age": 33,   "email": "Julian.Neal@pyladies.xyz.bla"        , "programming_language": "python"}
+{"name": "Gayle Jordan", "age": 33,   "email": "Gayle.Jordan@pyladies.xyz.bla"       , "programming_language": "python"}
+{"name": "Mable Day", "age":18,         "email": "Mable.Day@pyladies.xyz.bla"          , "programming_language": "python"}
+{"name": "Jasmine Gray", "age":20,      "email": "Jasmine.Gray@pyladies.xyz.bla"       , "programming_language": "python"}
+{"name": "Mitchell Young", "age":44,    "email": "Mitchell.Young@pyladies.xyz.bla"     , "programming_language": "none"}
+{"name": "Matthew Williams", "age":67,  "email": "Matthew.Williams@pyladies.xyz.bla"   , "programming_language": "none"}
+{"name": "Carlton Steele", "age":21,    "email": "Carlton.Steele@pyladies.xyz.bla"     , "programming_language": "none"}
+{"name": "Sherry Norris ", "age":20,    "email": "Sherry.Norris@pyladies.xyz.bla"      , "programming_language": "none"}
+{"name": "Ron Edwards", "age":20,       "email": "Ron.Edwards@pyladies.xyz.bla"        , "programming_language": "none"}
+{"name": "Irene Ward ", "age":20,       "email": "Irene.Ward@pyladies.xyz.bla"         , "programming_language": "none"}
+{"name": "Dexter Mcguire", "age":18,    "email": "Dexter.Mcguire@pyladies.xyz.bla"     , "programming_language": "none"}
+{"name": "Leslie Drake ", "age":17,     "email": "Leslie.Drake@pyladies.xyz.bla"       , "programming_language": "none"}
+{"name": "Patti Hernandez", "age":18,   "email": "Patti.Hernandez@pyladies.xyz.bla"    , "programming_language": "none"}
+{"name": "Melba Ruiz", "age":17,        "email": "Melba.Ruiz@pyladies.xyz.bla"         , "programming_language": "none"}
+{"name": "Casey Tran", "age":20,        "email": "Casey.Tran@pyladies.xyz.bla"         , "programming_language": "none"}
+{"name": "Juan Rios ", "age":29,        "email": "Juan.Rios@pyladies.xyz.bla"          , "programming_language": "scala"}
+{"name": "Roland Watkins ", "age":29,   "email": "Roland.Watkins@pyladies.xyz.bla"     , "programming_language": "scala"}
+{"name": "Shannon Long ", "age":25,     "email": "Shannon.Long@pyladies.xyz.bla"       , "programming_language": "scala"}
+{"name": "Cindy Becker ", "age":25,     "email": "Cindy.Becker@pyladies.xyz.bla"       , "programming_language": "scala"}
+{"name": "Gwen Bryant", "age": 23,       "email": "Gwen.Bryant@pyladies.xyz.bla"        , "programming_language": "scala"}
+{"name": "Joanne Morris", "age":22,     "email": "Joanne.Morris@pyladies.xyz.bla"      , "programming_language": "scala"}
+{"name": "Sheri Lee ", "age":20,        "email": "Sheri.Lee@pyladies.xyz.bla"          , "programming_language": "scala"}
+{"name": "Laurie Perry ", "age":55,     "email": "Laurie.Perry@pyladies.xyz.bla"       , "programming_language": "scala"}
+{"name": "Margaret Rogers", "age":67,   "email": "Margaret.Rogers@pyladies.xyz.bla"    , "programming_language": "scala"}
+{"name": "Jamie Wade", "age":34,        "email": "Jamie.Wade@pyladies.xyz.bla"         , "programming_language": "scala"}
+{"name": "Francis Page ", "age":34,     "email": "Francis.Page@pyladies.xyz.bla"       , "programming_language": "scala"}
+{"name": "Doreen Harmon", "age":34,     "email": "Doreen.Harmon@pyladies.xyz.bla"      , "programming_language": "haskell"}
+{"name": "Fred Stephens", "age":34,     "email": "Fred.Stephens@pyladies.xyz.bla"      , "programming_language": "haskell"}
+{"name": "Faith Simpson", "age":34,     "email": "Faith.Simpson@pyladies.xyz.bla"      , "programming_language": "haskell"}
+{"name": "Nathaniel Grant", "age":22,   "email": "Nathaniel.Grant@pyladies.xyz.bla"    , "programming_language": "haskell"}
+{"name": "Stephen Gibson ", "age":22,   "email": "Stephen.Gibson@pyladies.xyz.bla"     , "programming_language": "haskell"}
+{"name": "Earl Sanchez ", "age":30,     "email": "Earl.Sanchez@pyladies.xyz.bla"       , "programming_language": "haskell"}
+{"name": "Robyn Aguilar", "age":20,     "email": "Robyn.Aguilar@pyladies.xyz.bla"      , "programming_language": "haskell"}
+{"name": "Leo Henry ", "age":15,        "email": "Leo.Henry@pyladies.xyz.bla"          , "programming_language": "haskell"}
+{"name": "Cristina Nichols", "age":20,  "email": "Cristina.Nichols@pyladies.xyz.bla"   , "programming_language": "haskell"}
+{"name": "Verna Kelly", "age":18,       "email": "Verna.Kelly@pyladies.xyz.bla"        , "programming_language": "erlang"}
+{"name": "Katie Hunt",  "age":18,        "email": "Katie.Hunt@pyladies.xyz.bla"         , "programming_language": "erlang"}
+{"name": "Pete Mcbride ", "age":34,     "email": "Pete.Mcbride@pyladies.xyz.bla"       , "programming_language": "erlang"}
+{"name": "Erika Martin ", "age":34,     "email": "Erika.Martin@pyladies.xyz.bla"       , "programming_language": "erlang"}
+{"name": "Phyllis Stevens", "age":20,   "email": "Phyllis.Stevens@pyladies.xyz.bla"    , "programming_language": "erlang"}
+{"name": "Patrick Hudson ", "age":20,   "email": "Patrick.Hudson@pyladies.xyz.bla"     , "programming_language": "erlang"}
+{"name": "Juana Mckinney ", "age":20,   "email": "Juana.Mckinney@pyladies.xyz.bla"     , "programming_language": "java"}

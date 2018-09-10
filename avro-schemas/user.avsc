@@ -1,0 +1,10 @@
+{"namespace": "meetus.users",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "age",  "type": ["int", "null"]},
+     {"name": "email", "type": ["string", "null"]},
+     {"name": "programming_language", "type": ["string", "null"]}
+ ]
+}
