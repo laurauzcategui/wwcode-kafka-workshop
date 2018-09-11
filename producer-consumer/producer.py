@@ -12,28 +12,20 @@ from avro.io import DatumWriter
 
 from kafka import SimpleProducer, KafkaClient
 
+def help_msg():
+    return "e.g.: python producer.py --schema_path ../avro-schemas/user.avsc --data_file ../data/input.data --broker=kafka --topic=test"
+
 def args_parser():
     parser = argparse.ArgumentParser(
         description='Parse a file of data and its AVRO description to then inject it in a kafka topic.',
-        epilog="e.g.: python producer.py --schema_path ../avro-schemas/user.avsc --data_file ../data/input.data --broker=kafka --topic=test")
+        epilog=help_msg())
     parser.add_argument('--schema_name', default='../avro-schemas/user.avsc',help='Path to file containing the .avsc schema file')
     parser.add_argument('--data_path', default='../data/wwcode.data', help='Path to the file containing the data')
-    parser.add_argument('--broker',    help='Broker where to send the data')
-    parser.add_argument('--topic',     help='Topic on which to write the data')
+    parser.add_argument('--broker',    help='Broker where to send the data', required=True)
+    parser.add_argument('--topic',     help='Topic on which to write the data', required=True)
 
     args = parser.parse_args()
-    validate_arguments(args)
     return args
-
-def validate_arguments(args):
-    '''
-    It will receive the args and validate that broker and topic are being passed
-    as parameters
-    '''
-    if args.broker is None:
-        sys.exit('Broker needs to be specified :)')
-    if args.topic is None:
-        sys.exit('Please specify the topic to send your messages to')
 
 def read_schema(schema_path):
     '''
