@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 import io
 import argparse
@@ -7,10 +9,10 @@ from sys import argv
 import sys
 
 # Import the avro library
-import avro.schema
+import avro.io
 from avro.io import DatumWriter
 
-from kafka import SimpleProducer, KafkaClient
+import kafka_utils
 
 def help_msg():
     return "e.g.: python producer.py --schema_path ../avro-schemas/user.avsc --data_file ../data/input.data --broker=kafka --topic=test"
@@ -27,20 +29,12 @@ def args_parser():
     args = parser.parse_args()
     return args
 
-def read_schema(schema_path):
-    '''
-    It will read the avro schema file and return the parsed schema
-    '''
-    with open(schema_path) as f:
-            schema = avro.schema.Parse(f.read())
-    return schema
-
 def produce_messages(broker,topic,schema_name,data):
     '''
     It will receive the args and produce messages by sending to the broker and
     '''
 
-    schema = read_schema(schema_name)
+    schema = kafka_utils.read_schema(schema_name)
 
     # get a writter responsible to serialize data to avro format
     writer =  avro.io.DatumWriter(schema)
