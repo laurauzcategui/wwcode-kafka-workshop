@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-
 import json
 import io
 import argparse
-import time
 
 from sys import argv
 import sys
@@ -12,6 +10,7 @@ import sys
 import avro.io
 from avro.io import DatumWriter
 
+from kafka import KafkaProducer
 import kafka_utils
 
 def help_msg():
@@ -42,7 +41,44 @@ def produce_messages(broker,topic,schema_name,data):
     '''
         Let's add our code to start producing messages HERE :)
     '''
-    pass
+    producer = KafkaProducer( bootstrap_servers='{}:9092'.format(broker),
+                              client_id = "AwesomeKafkaProducer",
+                              acks=1,
+                              retries=3)
+    config = producer.config
+    print("Created kafka producer client_id: {}, broker:{}, acks:{} and retries:{} "
+        .format(config['client_id'], config['bootstrap_servers'], config['acks'], config['retries']))
+
+
+    msgs_sent_counter = 0
+
+    with open(data) as f:
+        for line in f:
+            if not line.strip():
+                continue
+            # load each line of your data file
+            msg = json.loads(line)
+
+            # get an in-memory byte buffer
+            bytes_writer = io.BytesIO()
+
+            # get the avro binary encoder
+            encoder = avro.io.BinaryEncoder(bytes_writer)
+
+            # serialize the data with the message and the encoder
+            writer.write(msg, encoder)
+
+            # get the serialized bytes from the buffer
+            raw_bytes = bytes_writer.getvalue()
+
+            # Send messages to the topic :)
+            producer.send(topic, value=raw_bytes)
+            msgs_sent_counter += 1
+            # Uncomment the line below if you want to see the message you are sending
+            print("Sending message: {}".format(line))
+
+        print("Sent {} messages".format(msgs_sent_counter))
+    producer.close()
 
 if __name__ == '__main__':
     args = args_parser()
